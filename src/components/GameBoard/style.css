@@ -1,0 +1,36 @@
+.board_wrapper {
+  width: 264px;
+  height: 264px;
+  display: table;
+  border-collapse: collapse;
+}
+
+.board_row {
+  height: calc(100% / 5);
+  display: flex;
+}
+.board_cell {
+  width: 20%;
+  height: 100%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row_name {
+  width: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.cell_name {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 4px;
+  font-weight: 600;
+}
